@@ -1,0 +1,148 @@
+
+
+body{
+    background-color: black;
+    
+}
+.logoBandaheader{
+ width: 150px;
+ }
+
+ .fotoHome{
+    width: 600px;
+ }
+.iconosredes{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    
+}
+.barraNavegacion__lista{
+    display: flex;
+    margin-top: 55px;
+    margin-left:15px ;
+   list-style: none;
+   text-decoration: none;
+   gap: 10px;
+   font-family:'Red Rose', cursive; 
+   text-size-adjust: auto;
+   
+}
+.barraNavegacion__lista :hover{ 
+    background-color: red;
+}
+
+li a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+h1 {
+    color: white;
+    font-family: 'Red Rose', cursive;
+    font-size: 50px
+}
+h3 {
+    color:aliceblue;
+}
+h5{
+    color:aliceblue;
+}
+
+p{
+color :aliceblue;
+font-family: 'Red Rose', cursive;
+font-size: 40px ;
+}
+
+p.textoBio{
+    align-items: top
+}
+.galeria__imagen{
+    width: 500px;
+    height: 300;
+}
+.fotoBio{
+    display:flex;
+
+}
+
+/* grid  */
+.headerGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+   
+}
+/* grid home  */
+.main-gridhome {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+     
+}
+ /* grid fotos y videos  */
+.main-gridfv{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 15PX;
+    gap: 40px;
+    background-color: black;
+}
+
+.footergrid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 15px;
+  background-color: black;
+}
+
+
+
+@media (max-width: 900px ) {
+    .headerGrid{
+        grid-template-columns: 1fr;
+    }
+    .main-gridhome {
+        grid-template-columns: 1fr;
+    }
+    .main-gridfv{
+        grid-template-columns: 1fr;
+    }
+    .footergrid{
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media (max-width: 700px ) {
+    .logoBandaheader{
+        width: 100;
+    }
+
+    .barraNavegacion__lista{
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .main-gridhome {
+        grid-template-columns: 1fr;
+    }
+    p{ 
+      align-items: left;
+      font-size: 16px;
+    }
+    .fotoHome{
+        width: 320px;   
+    }
+h1 {
+    color: white;
+    font-family: 'Red Rose', cursive;
+    font-size: 40px
+}
+.galeria__imagen{
+    width: 320px;
+    height: 150;
+}
+}
