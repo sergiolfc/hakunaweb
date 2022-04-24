@@ -32,10 +32,8 @@ body{
    gap: 10px;
    font-family:'Red Rose', cursive; 
    text-size-adjust: auto;
+  }
   
-   
-   
-}
 .barraNavegacion__lista :hover{ 
     background-color: red;
     transition: 1s;
@@ -45,11 +43,6 @@ body{
 li a {
     text-decoration: none;
     color: rgb(244, 246, 247);
-    
-}
-li a:hover{
-    
-}
 }
 
 h1 {
@@ -116,6 +109,7 @@ p.textoBio{
   margin-top: 15px;
 }
 
+/* animacion titulos */
 svg{
     width: 400px;
     height: 120px;
@@ -125,6 +119,7 @@ svg{
     margin: 0 auto;
     background: black;
   }
+
 .textobio{
     font-size: 16px  ;
 }
